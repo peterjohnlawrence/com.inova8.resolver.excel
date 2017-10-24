@@ -15,6 +15,12 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_06BE32FF8142A9EF8A865EA1F3A8BD5D"
+        "OwnerKey" = "8:_56B67AC55D944375A9437DB8F1BB96C6"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_551E14C35E0A4CACB8E061847D22547C"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -64,12 +70,6 @@
         "Entry"
         {
         "MsmKey" = "8:_BAA6E0A04FE8C42527FC1125D4D80EF4"
-        "OwnerKey" = "8:_56B67AC55D944375A9437DB8F1BB96C6"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_BAA6E0A04FE8C42527FC1125D4D80EF4"
         "OwnerKey" = "8:_5A48DF8EB9DEA9A44A1E1F943F0F278E"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -106,25 +106,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_9BE3F6698EF34F3292F91D8B6A55389A"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_5A48DF8EB9DEA9A44A1E1F943F0F278E"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_F0B232018715B0371A6AEF65BB0510BC"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_68BE2A7D3F6129434EE3B1CE4427F6B1"
+        "OwnerKey" = "8:_56B67AC55D944375A9437DB8F1BB96C6"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -136,7 +118,25 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_56B67AC55D944375A9437DB8F1BB96C6"
+        "OwnerKey" = "8:_68BE2A7D3F6129434EE3B1CE4427F6B1"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_F0B232018715B0371A6AEF65BB0510BC"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_5A48DF8EB9DEA9A44A1E1F943F0F278E"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_9BE3F6698EF34F3292F91D8B6A55389A"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -234,6 +234,26 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_06BE32FF8142A9EF8A865EA1F3A8BD5D"
+            {
+            "SourcePath" = "8:Resolver.tlb"
+            "TargetName" = "8:Resolver.tlb"
+            "Tag" = "8:"
+            "Folder" = "8:_5D6861DB2B1C4B7EB6DD7F4E071F8E92"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:2"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_551E14C35E0A4CACB8E061847D22547C"
             {
             "SourcePath" = "8:..\\ResolverUI\\bin\\Release\\ResolverXL.vsto"
@@ -261,11 +281,6 @@
             "AssemblyAsmDisplayName" = "8:Resolver, Version=1.1.0.0, Culture=neutral, PublicKeyToken=c3a64c65cbe0045d, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_5A48DF8EB9DEA9A44A1E1F943F0F278E"
-                    {
-                    "Name" = "8:Resolver.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:Resolver.dll"
             "TargetName" = "8:"
@@ -292,11 +307,6 @@
             "AssemblyAsmDisplayName" = "8:Microsoft.VisualStudio.Tools.Applications.Runtime, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_68BE2A7D3F6129434EE3B1CE4427F6B1"
-                    {
-                    "Name" = "8:Microsoft.VisualStudio.Tools.Applications.Runtime.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:Microsoft.VisualStudio.Tools.Applications.Runtime.dll"
             "TargetName" = "8:"
@@ -343,11 +353,6 @@
             "AssemblyAsmDisplayName" = "8:Microsoft.Office.Tools.Common.v4.0.Utilities, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_92BBF06C4803926566A738C4EA87F6B4"
-                    {
-                    "Name" = "8:Microsoft.Office.Tools.Common.v4.0.Utilities.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:Microsoft.Office.Tools.Common.v4.0.Utilities.dll"
             "TargetName" = "8:"
@@ -454,11 +459,6 @@
             "AssemblyAsmDisplayName" = "8:ResolverLicenser, Version=1.1.0.0, Culture=neutral, PublicKeyToken=99a708b5e5781675, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_F0B232018715B0371A6AEF65BB0510BC"
-                    {
-                    "Name" = "8:ResolverLicenser.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:ResolverLicenser.dll"
             "TargetName" = "8:"
