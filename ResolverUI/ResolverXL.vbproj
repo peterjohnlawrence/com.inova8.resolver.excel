@@ -61,6 +61,11 @@
       <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
       <Visible>False</Visible>
       <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
@@ -297,10 +302,13 @@
     <EmbeddedResource Include="ResolverRibbon.resx">
       <DependentUpon>ResolverRibbon.vb</DependentUpon>
     </EmbeddedResource>
-    <None Include="ResolverXL.dll.manifest" />
+    <None Include="ResolverXL.dll.manifest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="ResolverXL.pfx" />
     <None Include="ResolverXL.vsto">
       <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="ResolverXL_TemporaryKey.pfx" />
     <None Include="ThisAddIn.Designer.xml">

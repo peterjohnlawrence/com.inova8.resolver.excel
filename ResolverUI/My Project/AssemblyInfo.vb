@@ -12,8 +12,8 @@ Imports System.Security
 <Assembly: AssemblyTitle("ResolverXL")> 
 <Assembly: AssemblyDescription("")> 
 <Assembly: AssemblyCompany("Inova8")> 
-<Assembly: AssemblyProduct("ResolverXL")> 
-<Assembly: AssemblyCopyright("Copyright © Inova8 2012")> 
+<Assembly: AssemblyProduct("ResolverXL")>
+<Assembly: AssemblyCopyright("Copyright © Inova8 2017")>
 <Assembly: AssemblyTrademark("")> 
 
 ' Setting ComVisible to false makes the types in this assembly not visible 
