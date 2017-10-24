@@ -1,16 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resolver", "..\Resolver\Resolver.csproj", "{6164C1FF-949D-4502-96F4-CF439C89F357}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resolver", "Resolver\Resolver.csproj", "{6164C1FF-949D-4502-96F4-CF439C89F357}"
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ResolverXL", "ResolverUI\ResolverXL.vbproj", "{ECB4B9C3-1E8E-4154-8B18-C2C64BECFABD}"
 	ProjectSection(ProjectDependencies) = postProject
 		{45AD8B14-E7FE-421A-8441-347F6E696686} = {45AD8B14-E7FE-421A-8441-347F6E696686}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResolverLicenser", "..\ResolverLicensor\ResolverLicenser.csproj", "{45AD8B14-E7FE-421A-8441-347F6E696686}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResolverLicenser", "ResolverLicensor\ResolverLicenser.csproj", "{45AD8B14-E7FE-421A-8441-347F6E696686}"
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Resolversetup", "Resolversetup\Resolversetup.vdproj", "{64179C7D-DF68-45D3-8460-6B2A3290A8B3}"
 EndProject
@@ -38,5 +38,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A74E320-1D4F-42F6-8E43-D19BC7F05776}
 	EndGlobalSection
 EndGlobal

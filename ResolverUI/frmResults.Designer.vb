@@ -32,6 +32,7 @@ Partial Class frmResults
         Me.btnSaveScenario = New System.Windows.Forms.Button()
         Me.btnHelp = New System.Windows.Forms.Button()
         Me.btnVariableSensitivityReport = New System.Windows.Forms.CheckBox()
+        Me.btnConstraintSensitivityReport = New System.Windows.Forms.CheckBox()
         Me.SuspendLayout()
         '
         'lblResults
@@ -41,8 +42,8 @@ Partial Class frmResults
         Me.lblResults.Name = "lblResults"
         Me.lblResults.Size = New System.Drawing.Size(378, 13)
         Me.lblResults.TabIndex = 0
-        Me.lblResults.Text = "Resolver found a solution. All constraints and optimality conditions are satisfie" & _
-            "d."
+        Me.lblResults.Text = "Resolver found a solution. All constraints and optimality conditions are satisfie" &
+    "d."
         '
         'btnRetain
         '
@@ -80,7 +81,7 @@ Partial Class frmResults
         '
         'btnOK
         '
-        Me.btnOK.Location = New System.Drawing.Point(11, 98)
+        Me.btnOK.Location = New System.Drawing.Point(11, 108)
         Me.btnOK.Name = "btnOK"
         Me.btnOK.Size = New System.Drawing.Size(88, 30)
         Me.btnOK.TabIndex = 4
@@ -89,7 +90,7 @@ Partial Class frmResults
         '
         'btnCancel
         '
-        Me.btnCancel.Location = New System.Drawing.Point(114, 98)
+        Me.btnCancel.Location = New System.Drawing.Point(114, 108)
         Me.btnCancel.Name = "btnCancel"
         Me.btnCancel.Size = New System.Drawing.Size(88, 30)
         Me.btnCancel.TabIndex = 5
@@ -98,7 +99,7 @@ Partial Class frmResults
         '
         'btnSaveScenario
         '
-        Me.btnSaveScenario.Location = New System.Drawing.Point(217, 98)
+        Me.btnSaveScenario.Location = New System.Drawing.Point(217, 108)
         Me.btnSaveScenario.Name = "btnSaveScenario"
         Me.btnSaveScenario.Size = New System.Drawing.Size(88, 30)
         Me.btnSaveScenario.TabIndex = 6
@@ -107,7 +108,7 @@ Partial Class frmResults
         '
         'btnHelp
         '
-        Me.btnHelp.Location = New System.Drawing.Point(320, 98)
+        Me.btnHelp.Location = New System.Drawing.Point(320, 108)
         Me.btnHelp.Name = "btnHelp"
         Me.btnHelp.Size = New System.Drawing.Size(88, 30)
         Me.btnHelp.TabIndex = 7
@@ -126,11 +127,22 @@ Partial Class frmResults
         Me.btnVariableSensitivityReport.Text = "VariableSensitivity Report"
         Me.btnVariableSensitivityReport.UseVisualStyleBackColor = True
         '
+        'btnConstraintSensitivityReport
+        '
+        Me.btnConstraintSensitivityReport.AutoSize = True
+        Me.btnConstraintSensitivityReport.Location = New System.Drawing.Point(228, 83)
+        Me.btnConstraintSensitivityReport.Name = "btnConstraintSensitivityReport"
+        Me.btnConstraintSensitivityReport.Size = New System.Drawing.Size(158, 17)
+        Me.btnConstraintSensitivityReport.TabIndex = 26
+        Me.btnConstraintSensitivityReport.Text = "Constraint Sensitivity Report"
+        Me.btnConstraintSensitivityReport.UseVisualStyleBackColor = True
+        '
         'frmResults
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(421, 132)
+        Me.ClientSize = New System.Drawing.Size(421, 144)
+        Me.Controls.Add(Me.btnConstraintSensitivityReport)
         Me.Controls.Add(Me.btnVariableSensitivityReport)
         Me.Controls.Add(Me.btnHelp)
         Me.Controls.Add(Me.btnSaveScenario)
@@ -158,4 +170,5 @@ Partial Class frmResults
     Friend WithEvents btnSaveScenario As System.Windows.Forms.Button
     Friend WithEvents btnHelp As System.Windows.Forms.Button
     Friend WithEvents btnVariableSensitivityReport As System.Windows.Forms.CheckBox
+    Friend WithEvents btnConstraintSensitivityReport As Windows.Forms.CheckBox
 End Class

@@ -51,6 +51,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_ACBE082D37A24A988E836C94C1C11590"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_CDF4A4870EDC423C23A3319A98F95CFC"
         "OwnerKey" = "8:_56B67AC55D944375A9437DB8F1BB96C6"
         "MsmSig" = "8:_UNDEFINED"
@@ -70,13 +76,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_5AF7A33202EF4BE9BDCA564211AF6730"
+        "OwnerKey" = "8:_A3F0606D473844219A2122483B0AB75F"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_A3F0606D473844219A2122483B0AB75F"
+        "OwnerKey" = "8:_5AF7A33202EF4BE9BDCA564211AF6730"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -134,6 +140,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
             }
         }
         "Release"
@@ -212,7 +226,7 @@
             "SourcePath" = "8:Resolver.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_BCC79763AB3344288AA7071F8FBAD179"
+            "Folder" = "8:_5D6861DB2B1C4B7EB6DD7F4E071F8E92"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -223,7 +237,7 @@
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
-            "Exclude" = "11:FALSE"
+            "Exclude" = "11:TRUE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
@@ -243,7 +257,7 @@
             "SourcePath" = "8:Microsoft.VisualStudio.Tools.Applications.Runtime.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_BCC79763AB3344288AA7071F8FBAD179"
+            "Folder" = "8:_5D6861DB2B1C4B7EB6DD7F4E071F8E92"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -274,7 +288,7 @@
             "SourcePath" = "8:Microsoft.Office.Tools.Common.v4.0.Utilities.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_BCC79763AB3344288AA7071F8FBAD179"
+            "Folder" = "8:_5D6861DB2B1C4B7EB6DD7F4E071F8E92"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -289,12 +303,32 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_ACBE082D37A24A988E836C94C1C11590"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\..\\git\\com.inova8.resolver\\src\\test\\resources\\Excel\\Resolver.Examples.xlsm"
+            "TargetName" = "8:Resolver.Examples.xlsm"
+            "Tag" = "8:"
+            "Folder" = "8:_0AD2F5002E994F93AE6A188FFAB5576D"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:FALSE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CDF4A4870EDC423C23A3319A98F95CFC"
             {
             "SourcePath" = "8:Resolver.tlb"
             "TargetName" = "8:Resolver.tlb"
             "Tag" = "8:"
-            "Folder" = "8:_BCC79763AB3344288AA7071F8FBAD179"
+            "Folder" = "8:_5D6861DB2B1C4B7EB6DD7F4E071F8E92"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -325,7 +359,7 @@
             "SourcePath" = "8:ResolverLicenser.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_BCC79763AB3344288AA7071F8FBAD179"
+            "Folder" = "8:_5D6861DB2B1C4B7EB6DD7F4E071F8E92"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -336,7 +370,7 @@
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
-            "Exclude" = "11:FALSE"
+            "Exclude" = "11:TRUE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
@@ -397,7 +431,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Resolver"
         "ProductCode" = "8:{9BDDF482-8FBA-4CBD-91C7-AB547A9031EF}"
-        "PackageCode" = "8:{E7DC9539-B6B6-4974-8AB7-A9E788806388}"
+        "PackageCode" = "8:{C39261D3-3DE4-4C4B-A81E-1B807996F971}"
         "UpgradeCode" = "8:{C580A0E3-3ECB-444C-B9AB-69E66AE50570}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <!--
     This section defines project-level properties.
 
@@ -26,8 +26,9 @@
     <OutputType>Library</OutputType>
     <RootNamespace>ResolverUI</RootNamespace>
     <AssemblyName>ResolverXL</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
     <DefineConstants>VSTO40</DefineConstants>
     <StartupObject>
     </StartupObject>
@@ -124,6 +125,7 @@
     <RegisterForComInterop>false</RegisterForComInterop>
     <RemoveIntegerChecks>false</RemoveIntegerChecks>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <!--
     This section defines properties that are set when the "Release" configuration is selected.
@@ -153,6 +155,7 @@
     <RegisterForComInterop>false</RegisterForComInterop>
     <RemoveIntegerChecks>false</RemoveIntegerChecks>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <!--
     This section enables pre- and post-build steps. However, in VSTO use
@@ -348,11 +351,11 @@
     <Content Include="Resources\inova8.ico" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\ResolverLicensor\ResolverLicenser.csproj">
+    <ProjectReference Include="..\ResolverLicensor\ResolverLicenser.csproj">
       <Project>{45AD8B14-E7FE-421A-8441-347F6E696686}</Project>
       <Name>ResolverLicenser</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Resolver\Resolver.csproj">
+    <ProjectReference Include="..\Resolver\Resolver.csproj">
       <Project>{6164C1FF-949D-4502-96F4-CF439C89F357}</Project>
       <Name>Resolver</Name>
     </ProjectReference>

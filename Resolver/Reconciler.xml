@@ -1,0 +1,191 @@
+﻿<ConversionLog>
+    <Settings>
+        <Setting
+            Name = "LogFile"
+            Value = "Reconciler.xml"
+        />
+        <Setting
+            Name = "ProjectName"
+            Value = "Reconciler"
+        />
+        <Setting
+            Name = "StartTime"
+            Value = "Wednesday, January 23, 2008 10:20:10"
+        />
+        <Setting
+            Name = "OutputDir"
+            Value = "C:\Documents and Settings\peter.lawrence\Desktop\Reconciler\C#"
+        />
+        <Setting
+            Name = "ProjectPath"
+            Value = "C:\Documents and Settings\peter.lawrence\Desktop\Reconciler\Java"
+        />
+    </Settings>
+    <Root>
+        <File
+            OldPath = "C:\Documents and Settings\peter.lawrence\Desktop\Reconciler\Java\ConstraintClass.java"
+            NewPath = "C:\Documents and Settings\peter.lawrence\Desktop\Reconciler\C#\ConstraintClass.cs"
+        >
+            <Class Name = "ReconcilerPackage.ConstraintClass" >
+                <Section Name = "AddArgument(ReconcilerPackage.VariableClass)" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1043"
+                        Severity = "2"
+                    >The equivalent in .NET for method 'java.util.ArrayList.add' may return a different value.</Issue>
+                </Section>
+            </Class>
+        </File>
+        <File
+            OldPath = "C:\Documents and Settings\peter.lawrence\Desktop\Reconciler\Java\ConstraintsClass.java"
+            NewPath = "C:\Documents and Settings\peter.lawrence\Desktop\Reconciler\C#\ConstraintsClass.cs"
+        >
+            <Class Name = "ReconcilerPackage.ConstraintsClass" >
+                <Section Name = "Add(ReconcilerPackage.NodeClass)" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1043"
+                        Severity = "2"
+                    >The equivalent in .NET for method 'java.util.ArrayList.add' may return a different value.</Issue>
+                </Section>
+            </Class>
+        </File>
+        <File
+            OldPath = "C:\Documents and Settings\peter.lawrence\Desktop\Reconciler\Java\Err.java"
+            NewPath = "C:\Documents and Settings\peter.lawrence\Desktop\Reconciler\C#\Err.cs"
+        />
+        <File
+            OldPath = "C:\Documents and Settings\peter.lawrence\Desktop\Reconciler\Java\Functions.java"
+            NewPath = "C:\Documents and Settings\peter.lawrence\Desktop\Reconciler\C#\Functions.cs"
+        />
+        <File
+            OldPath = "C:\Documents and Settings\peter.lawrence\Desktop\Reconciler\Java\Initialize.java"
+            NewPath = "C:\Documents and Settings\peter.lawrence\Desktop\Reconciler\C#\Initialize.cs"
+        />
+        <File
+            OldPath = "C:\Documents and Settings\peter.lawrence\Desktop\Reconciler\Java\LexerClass.java"
+            NewPath = "C:\Documents and Settings\peter.lawrence\Desktop\Reconciler\C#\LexerClass.cs"
+        />
+        <File
+            OldPath = "C:\Documents and Settings\peter.lawrence\Desktop\Reconciler\Java\NodeClass.java"
+            NewPath = "C:\Documents and Settings\peter.lawrence\Desktop\Reconciler\C#\NodeClass.cs"
+        />
+        <File
+            OldPath = "C:\Documents and Settings\peter.lawrence\Desktop\Reconciler\Java\ProblemClass.java"
+            NewPath = "C:\Documents and Settings\peter.lawrence\Desktop\Reconciler\C#\ProblemClass.cs"
+        />
+        <File
+            OldPath = "C:\Documents and Settings\peter.lawrence\Desktop\Reconciler\Java\ReconciledVariableClass.java"
+            NewPath = "C:\Documents and Settings\peter.lawrence\Desktop\Reconciler\C#\ReconciledVariableClass.cs"
+        />
+        <File
+            OldPath = "C:\Documents and Settings\peter.lawrence\Desktop\Reconciler\Java\Reconciler.java"
+            NewPath = "C:\Documents and Settings\peter.lawrence\Desktop\Reconciler\C#\Reconciler.cs"
+        >
+            <Class Name = "ReconcilerPackage.Reconciler" >
+                <Section Name = "Declarations" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javaappletApplet"
+                        Severity = "2"
+                    >Class 'java.applet.Applet' was converted to 'System.Windows.Forms.UserControl' which has a different behavior.</Issue>
+                </Section>
+            </Class>
+        </File>
+        <File
+            OldPath = "C:\Documents and Settings\peter.lawrence\Desktop\Reconciler\Java\SolutionClass.java"
+            NewPath = "C:\Documents and Settings\peter.lawrence\Desktop\Reconciler\C#\SolutionClass.cs"
+        >
+            <Class Name = "ReconcilerPackage.SolutionClass" >
+                <Section Name = "LocateReconciledVariables(ReconcilerPackage.VariableClass)" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javautilIteratorhasNext"
+                        Severity = "2"
+                    >Method 'java.util.Iterator.hasNext' was converted to 'System.Collections.IEnumerator.MoveNext' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javautilIteratornext"
+                        Severity = "2"
+                    >Method 'java.util.Iterator.next' was converted to 'System.Collections.IEnumerator.Current' which has a different behavior.</Issue>
+                </Section>
+                <Section Name = "AddReconciledVariable(ReconcilerPackage.VariableClass)" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1043"
+                        Severity = "2"
+                    >The equivalent in .NET for method 'java.util.ArrayList.add' may return a different value.</Issue>
+                </Section>
+            </Class>
+        </File>
+        <File
+            OldPath = "C:\Documents and Settings\peter.lawrence\Desktop\Reconciler\Java\TokenClass.java"
+            NewPath = "C:\Documents and Settings\peter.lawrence\Desktop\Reconciler\C#\TokenClass.cs"
+        />
+        <File
+            OldPath = "C:\Documents and Settings\peter.lawrence\Desktop\Reconciler\Java\UTClass.java"
+            NewPath = "C:\Documents and Settings\peter.lawrence\Desktop\Reconciler\C#\UTClass.cs"
+        />
+        <File
+            OldPath = "C:\Documents and Settings\peter.lawrence\Desktop\Reconciler\Java\VariableClass.java"
+            NewPath = "C:\Documents and Settings\peter.lawrence\Desktop\Reconciler\C#\VariableClass.cs"
+        >
+            <Class Name = "ReconcilerPackage.VariableClass" >
+                <Section Name = "Selector(java.lang.String)" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javautilHashMapget_javalangObject"
+                        Severity = "2"
+                    >Method 'java.util.HashMap.get' was converted to 'System.Collections.Hashtable.Item' which has a different behavior.</Issue>
+                </Section>
+                <Section Name = "AddVariable(java.lang.String,ReconcilerPackage.NodeClass)" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javautilHashMapget_javalangObject"
+                        Severity = "2"
+                    >Method 'java.util.HashMap.get' was converted to 'System.Collections.Hashtable.Item' which has a different behavior.</Issue>
+                </Section>
+                <Section Name = "Declarations" >
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javautilHashMap"
+                        Severity = "2"
+                    >Class 'java.util.HashMap' was converted to 'System.Collections.Hashtable' which has a different behavior.</Issue>
+                    <Issue
+                        Type = "ToDo"
+                        Number = "1073"
+                        LinkKeywordParam = "_javautilHashMap"
+                        Severity = "2"
+                    >Class 'java.util.HashMap' was converted to 'System.Collections.Hashtable' which has a different behavior.</Issue>
+                </Section>
+            </Class>
+        </File>
+        <Issue
+            Type = "Global Warning"
+            Number = "1274"
+            Severity = "2"
+        >Interaction between members of a class may differ because their execution sequence is different. </Issue>
+        <Issue
+            Type = "Global Warning"
+            Number = "1225"
+            Severity = "2"
+        >Type castings between primitive types may have different behavior.</Issue>
+        <Issue
+            Type = "Global Warning"
+            Number = "1133"
+            Severity = "2"
+        >The equivalent of java.lang.Object.equals in Visual C# can return a different value if the two comparison methods differ.</Issue>
+        <Issue
+            Type = "Global Warning"
+            Number = "1297"
+            Severity = "2"
+        >Enumerations should be started first before accessing their data by calling their MoveNext method.</Issue>
+    </Root>
+</ConversionLog>
+

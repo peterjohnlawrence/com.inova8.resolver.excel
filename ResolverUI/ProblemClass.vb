@@ -185,7 +185,7 @@
             MsgBox("Problem size exceeds that of the trial license (" & _
                    com.inova8.resolver.LicenserClass.maxCells & ")" & vbCrLf _
                    & "Your problem is using " & Resolver.NumberCells & " Excel cells.")
-            ' & "http://inova8.com/joomla/index.php/software/viewdownload/4-software-downloads/3-resolver-excel-addin-for-process-data-reconciliation.")
+            ' & "http://inova8.com/bg_inova8.com/offerings/resolver/")
 
         ElseIf errors <> "" Then
             MsgBox("Cannot reconcile due to these errors:" + vbCrLf + errors)
@@ -209,6 +209,9 @@
                 End If
                 If ResultsForm.btnVariableSensitivityReport.Checked Then
                     VariableSensitivityReport()
+                End If
+                If ResultsForm.btnConstraintSensitivityReport.Checked Then
+                    ConstraintSensitivityReport()
                 End If
             End If
             ResultsForm.Hide()
@@ -364,12 +367,11 @@ endconstraintloop: End If
         Dim ConstraintCriticalValue As Double
 
         currentWorksheet = xlsSheet
-        Worksheet = xlsWB.Worksheets.Add
 
         MeasurementCriticalValue = Resolver.MeasurementCriticalValue
         ConstraintCriticalValue = Resolver.ConstraintCriticalValue
 
-        Worksheet.Name = nextreport("Reconciliation Report")
+        Worksheet = nextreport(Left(xlsSheet.Name, 27) + "#AR")
         Worksheet.Columns("A").ColumnWidth = 2.0#
         Worksheet.Columns("B").ColumnWidth = 12.5
         Worksheet.Columns("C").ColumnWidth = 14.5
@@ -564,9 +566,8 @@ endconstraintloop: End If
         Dim currentWorksheet As Excel.Worksheet
 
         currentWorksheet = xlsSheet
-        Worksheet = xlsWB.Worksheets.Add
 
-        Worksheet.Name = nextreport("Variable Sensitivity Report")
+        Worksheet = nextreport(Left(xlsSheet.Name, 27) + "#VS")
 
         Worksheet.Cells(1, 1).value = "Resolver Variable Sensitivity Report"
         Worksheet.Cells(2, 1).value = "Worksheet:" + "[" + xlsWB.Name + "]" + currentWorksheet.Name
@@ -620,9 +621,8 @@ endconstraintloop: End If
         Dim currentWorksheet As Excel.Worksheet
 
         currentWorksheet = xlsSheet
-        Worksheet = xlsWB.Worksheets.Add
 
-        Worksheet.Name = nextreport("Constraint Sensitivity Report")
+        Worksheet = nextreport(Left(xlsSheet.Name, 27) + "#CS")
 
         Worksheet.Cells(1, 1).value = "Resolver Constraint Sensitivity Report"
         Worksheet.Cells(2, 1).value = "Worksheet:" + "[" + xlsWB.Name + "]" + currentWorksheet.Name
@@ -690,18 +690,31 @@ endconstraintloop: End If
         range.Borders(Excel.XlBordersIndex.xlEdgeBottom).Color = 8210719
         range.Borders(Excel.XlBordersIndex.xlEdgeBottom).Weight = -4138
     End Sub
-    Private Function nextreport(ByVal reportname As String) As String
-        Dim i As Long
-        Dim max As Long
-        Dim number As String
-        max = 0
-        For i = 1 To xlsApp.Worksheets.Count
-            If InStr(Mid(xlsApp.Worksheets(i).name, 1, Len(reportname)), reportname) > 0 Then
-                number = Mid(xlsApp.Worksheets(i).name, Len(reportname) + 1)
-                If IsNumeric(number) Then If number > max Then max = number
-            End If
-        Next i
-        nextreport = reportname + " " + Format(max + 1)
+    Private Function nextreport(ByVal reportname As String) As Excel.Worksheet
+        '       Dim i As Long
+        '       Dim max As Long
+        '        Dim number As String
+        '        max = 0
+        '        For i = 1 To xlsApp.Worksheets.Count
+        '        If InStr(Mid(xlsApp.Worksheets(i).name, 1, Len(reportname)), reportname) > 0 Then
+        '       Number = Mid(xlsApp.Worksheets(i).name, Len(reportname) + 1)
+        '        If IsNumeric(number) Then If number > max Then max = number
+        '       End If
+        '       Next i
+        '        nextreport = reportname + " " + Format(max + 1)
+        Dim reportSheet As Excel.Worksheet
+        On Error Resume Next
+        reportSheet = xlsApp.Sheets(reportname)
+        On Error GoTo 0
+        If (Not (reportSheet Is Nothing)) Then
+            reportSheet.Cells.Delete()
+            nextreport = reportSheet
+        Else
+            Dim Worksheet As Excel.Worksheet
+            Worksheet = xlsWB.Worksheets.Add
+            Worksheet.Name = reportname
+            nextreport = Worksheet
+        End If
     End Function
     Private Sub writeresults(ByVal comments As Boolean)
         Dim address As String
