@@ -15,7 +15,19 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_1E70BAA6BD8BA85E1DFC24A273561D56"
+        "MsmKey" = "8:_1D8932B13E7EB49B8E263047355501C4"
+        "OwnerKey" = "8:_A3F0606D473844219A2122483B0AB75F"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_1D8932B13E7EB49B8E263047355501C4"
+        "OwnerKey" = "8:_2640B3CB772C867AB1B52CCF0DE27442"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_2640B3CB772C867AB1B52CCF0DE27442"
         "OwnerKey" = "8:_5AF7A33202EF4BE9BDCA564211AF6730"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -51,25 +63,25 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_ACBE082D37A24A988E836C94C1C11590"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_CDF4A4870EDC423C23A3319A98F95CFC"
+        "MsmKey" = "8:_A6342DC1917880429E2E64A037C81D2A"
         "OwnerKey" = "8:_56B67AC55D944375A9437DB8F1BB96C6"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_CDF4A4870EDC423C23A3319A98F95CFC"
-        "OwnerKey" = "8:_1E70BAA6BD8BA85E1DFC24A273561D56"
+        "MsmKey" = "8:_A6342DC1917880429E2E64A037C81D2A"
+        "OwnerKey" = "8:_EADD33A529F73734AED6D4244A305C6B"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_D1F465055EC3F209DEC10F98C1415DC2"
+        "MsmKey" = "8:_D6225FC14C44428DA17702D7778715E6"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_EADD33A529F73734AED6D4244A305C6B"
         "OwnerKey" = "8:_5AF7A33202EF4BE9BDCA564211AF6730"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -88,13 +100,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_1E70BAA6BD8BA85E1DFC24A273561D56"
+        "OwnerKey" = "8:_EADD33A529F73734AED6D4244A305C6B"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_D1F465055EC3F209DEC10F98C1415DC2"
+        "OwnerKey" = "8:_2640B3CB772C867AB1B52CCF0DE27442"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -210,20 +222,40 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_1E70BAA6BD8BA85E1DFC24A273561D56"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1D8932B13E7EB49B8E263047355501C4"
+            {
+            "SourcePath" = "8:ResolverLicenser.tlb"
+            "TargetName" = "8:ResolverLicenser.tlb"
+            "Tag" = "8:"
+            "Folder" = "8:_5D6861DB2B1C4B7EB6DD7F4E071F8E92"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:2"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_2640B3CB772C867AB1B52CCF0DE27442"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Resolver, Version=1.1.0.0, Culture=neutral, PublicKeyToken=27fc810059461ad7, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:ResolverLicenser, Version=1.1.0.0, Culture=neutral, PublicKeyToken=21738dbd78c4b6e9, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_1E70BAA6BD8BA85E1DFC24A273561D56"
+                    "_2640B3CB772C867AB1B52CCF0DE27442"
                     {
-                    "Name" = "8:Resolver.dll"
+                    "Name" = "8:ResolverLicenser.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:Resolver.dll"
+            "SourcePath" = "8:ResolverLicenser.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_5D6861DB2B1C4B7EB6DD7F4E071F8E92"
@@ -303,27 +335,7 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_ACBE082D37A24A988E836C94C1C11590"
-            {
-            "SourcePath" = "8:..\\..\\..\\..\\..\\git\\com.inova8.resolver\\src\\test\\resources\\Excel\\Resolver.Examples.xlsm"
-            "TargetName" = "8:Resolver.Examples.xlsm"
-            "Tag" = "8:"
-            "Folder" = "8:_0AD2F5002E994F93AE6A188FFAB5576D"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:FALSE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CDF4A4870EDC423C23A3319A98F95CFC"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A6342DC1917880429E2E64A037C81D2A"
             {
             "SourcePath" = "8:Resolver.tlb"
             "TargetName" = "8:Resolver.tlb"
@@ -343,20 +355,40 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_D1F465055EC3F209DEC10F98C1415DC2"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D6225FC14C44428DA17702D7778715E6"
+            {
+            "SourcePath" = "8:..\\Samples\\Resolver.Examples.xlsm"
+            "TargetName" = "8:Resolver.Examples.xlsm"
+            "Tag" = "8:"
+            "Folder" = "8:_0AD2F5002E994F93AE6A188FFAB5576D"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_EADD33A529F73734AED6D4244A305C6B"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:ResolverLicenser, Version=1.1.0.0, Culture=neutral, PublicKeyToken=21738dbd78c4b6e9, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:Resolver, Version=1.1.0.0, Culture=neutral, PublicKeyToken=27fc810059461ad7, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_D1F465055EC3F209DEC10F98C1415DC2"
+                    "_EADD33A529F73734AED6D4244A305C6B"
                     {
-                    "Name" = "8:ResolverLicenser.dll"
+                    "Name" = "8:Resolver.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:ResolverLicenser.dll"
+            "SourcePath" = "8:Resolver.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_5D6861DB2B1C4B7EB6DD7F4E071F8E92"
@@ -952,7 +984,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_56B67AC55D944375A9437DB8F1BB96C6"
             {
-            "SourcePath" = "8:..\\..\\Resolver\\obj\\Release\\Resolver.dll"
+            "SourcePath" = "8:..\\Resolver\\obj\\Debug\\Resolver.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_5D6861DB2B1C4B7EB6DD7F4E071F8E92"
@@ -980,7 +1012,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_5AF7A33202EF4BE9BDCA564211AF6730"
             {
-            "SourcePath" = "8:..\\ResolverUI\\obj\\Release\\ResolverXL.dll"
+            "SourcePath" = "8:..\\ResolverUI\\obj\\Debug\\ResolverXL.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_5D6861DB2B1C4B7EB6DD7F4E071F8E92"
@@ -1008,7 +1040,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_A3F0606D473844219A2122483B0AB75F"
             {
-            "SourcePath" = "8:..\\..\\ResolverLicensor\\obj\\Release\\ResolverLicenser.dll"
+            "SourcePath" = "8:..\\ResolverLicensor\\obj\\Debug\\ResolverLicenser.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_5D6861DB2B1C4B7EB6DD7F4E071F8E92"
