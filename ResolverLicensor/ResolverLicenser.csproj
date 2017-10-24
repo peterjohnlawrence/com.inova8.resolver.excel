@@ -37,7 +37,7 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>ResolverLicenser.pfx.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>ResolverLicenser.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>inova8.ico</ApplicationIcon>
@@ -70,6 +70,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="ResolverLicenser.pfx" />
     <None Include="ResolverLicenser.pfx.snk" />
   </ItemGroup>
   <ItemGroup>
