@@ -9,8 +9,8 @@ Imports System.Security
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("ResolverXL")> 
-<Assembly: AssemblyDescription("")> 
+<Assembly: AssemblyTitle("ResolverXL")>
+<Assembly: AssemblyDescription("Resolver is an Excel add-in that performs data reconciliation using a high performance, accurate, and robust algorithm optimized for the data reconciliation problem.")>
 <Assembly: AssemblyCompany("Inova8")> 
 <Assembly: AssemblyProduct("ResolverXL")>
 <Assembly: AssemblyCopyright("Copyright © Inova8 2017")>

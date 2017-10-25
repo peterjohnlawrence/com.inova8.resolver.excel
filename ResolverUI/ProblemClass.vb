@@ -238,8 +238,12 @@
     End Function
     Private Function CellAddress(ByVal cell As Excel.Range) As String
         On Error GoTo norange
+        If (cell.Name.visible) Then
+            CellAddress = cell.Name.name
+        Else
+            CellAddress = cell.Address
+        End If
 
-        CellAddress = cell.Name.name
         'CellAddress = cell.Address
         CellAddress = Mid(CellAddress, InStr(1, CellAddress, "!") + 1)
         On Error GoTo 0
@@ -459,7 +463,8 @@ endconstraintloop: End If
 
             RowOffset = RowOffset + 1
 
-            Worksheet.Cells(RowOffset, ColOffset + 0).value = problemRange.Address
+            If Not (problemRange Is Nothing) Then Worksheet.Cells(RowOffset, ColOffset + 0).value = problemRange.Address
+            'Worksheet.Cells(RowOffset, ColOffset + 0).value = problemRange.Address
             Worksheet.Cells(RowOffset, ColOffset + 1).value = .ReconciledCost
             If (.ReconciledCost >= .GlobalCriticalValue) Then highlight(Worksheet.Cells(RowOffset, ColOffset + 1))
             Worksheet.Cells(RowOffset, ColOffset + 2).value = .GlobalCriticalValue

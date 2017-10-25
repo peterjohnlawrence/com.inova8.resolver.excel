@@ -32,7 +32,11 @@
     Private Sub btnAddConstraint_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnAddConstraint.Click
         Dim newConstraint As New Constraint
         newConstraint.reference = currentConstraint.reference
-        newConstraint.equality = currentConstraint.equality
+        If (currentConstraint.equality Is Nothing) Then
+            newConstraint.equality = "="
+        Else
+            newConstraint.equality = currentConstraint.equality
+        End If
         newConstraint.constraintreference = currentConstraint.constraintreference
         On Error GoTo duplicate
         If Not newConstraint.validate Then
