@@ -1336,7 +1336,7 @@ public class StatisticsClass
         double functionReturnValue = 0;
         if (NonIntegralValuesAllowed_Others)
         {
-            functionReturnValue = Convert.ToInt32(Value);
+           // functionReturnValue = Convert.ToInt32(Value);
         }
         else if (Value != Convert.ToInt32(Value))
         {
@@ -1354,7 +1354,7 @@ public class StatisticsClass
         double functionReturnValue = 0;
         if (NonIntegralValuesAllowed_df)
         {
-            functionReturnValue = Value;
+           // functionReturnValue = Value;
         }
         else
         {

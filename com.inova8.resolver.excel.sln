@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResolverLicenser", "Resolve
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ResolverXL", "ResolverUI\ResolverXL.vbproj", "{ECB4B9C3-1E8E-4154-8B18-C2C64BECFABD}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Resolversetup", "Resolversetup\Resolversetup.vdproj", "{BD096398-DBC7-46DB-BEE4-2EED61D2D372}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ResolverSetup", "ResolverSetup\ResolverSetup.vdproj", "{43E94470-76EA-4ACF-A378-C2B58F0F4FB3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,8 @@ Global
 		{ECB4B9C3-1E8E-4154-8B18-C2C64BECFABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECB4B9C3-1E8E-4154-8B18-C2C64BECFABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECB4B9C3-1E8E-4154-8B18-C2C64BECFABD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BD096398-DBC7-46DB-BEE4-2EED61D2D372}.Debug|Any CPU.ActiveCfg = Debug
-		{BD096398-DBC7-46DB-BEE4-2EED61D2D372}.Debug|Any CPU.Build.0 = Debug
-		{BD096398-DBC7-46DB-BEE4-2EED61D2D372}.Release|Any CPU.ActiveCfg = Release
-		{BD096398-DBC7-46DB-BEE4-2EED61D2D372}.Release|Any CPU.Build.0 = Release
+		{43E94470-76EA-4ACF-A378-C2B58F0F4FB3}.Debug|Any CPU.ActiveCfg = Debug
+		{43E94470-76EA-4ACF-A378-C2B58F0F4FB3}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
